@@ -1,0 +1,27 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.web-accessibility-checker {
+}
+
+/* Highlight Text */
+atom-text-editor::shadow {
+
+  .highlight-test .region {
+    border-bottom: 1px solid @text-color-warning!important;
+  }
+
+  .highlight-test {
+    background-color: @text-color-warning!important;
+  }
+
+}
+atom-overlay{
+  .overlay-test{
+    color:green;
+    background-color: grey;
+  }
+}

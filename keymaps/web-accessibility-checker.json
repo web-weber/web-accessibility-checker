@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-e": "web-accessibility-checker:enableContinousChecking",
+    "ctrl-alt-a": "web-accessibility-checker:checkPage",
+    "ctrl-alt-n": "web-accessibility-checker:disableContinousChecking"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-accessibility-checker",
+  "main": "./lib/web-accessibility-checker",
+  "version": "0.0.0",
+  "description": "Web Accessibility checker, which evaluate some defined WCAG rules instantly during coding or on command.",
+  "keywords": [
+    "WCAG", "W3C", "Web Accessibility", "Accessibility", "HTML"
+  ],
+  "activationCommands": {
+    "atom-workspace":[
+      "web-accessibility-checker:enableContinousChecking",
+      "web-accessibility-checker:checkPage",
+      "web-accessibility-checker:disableContinousChecking"
+    ]
+  },
+  "repository": "https://github.com/atom/web-accessibility-checker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

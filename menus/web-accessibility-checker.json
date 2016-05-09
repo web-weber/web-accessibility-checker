@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Web Accessibility Checker",
+          "submenu": [
+            {
+              "label": "Test",
+              "command": "web-accessibility-checker:test"
+            },
+            {
+              "label": "checkPage",
+              "command": "web-accessibility-checker:checkPage"
+            },
+            {
+              "label": "enableContinousChecking",
+              "command": "web-accessibility-checker:enableContinousChecking"
+            },
+            {
+              "label": "disableContinousChecking",
+              "command": "web-accessibility-checker:disableContinousChecking"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
