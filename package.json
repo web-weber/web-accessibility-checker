@@ -13,7 +13,7 @@
       "web-accessibility-checker:disableContinousChecking"
     ]
   },
-  "repository": "https://github.com/atom/web-accessibility-checker",
+  "repository": "https://github.com/web-weber/web-accessibility-checker",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
