@@ -1,7 +1,7 @@
 {
   "name": "web-accessibility-checker",
   "main": "./lib/web-accessibility-checker",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Web Accessibility checker which evaluate some defined WCAG rules instantly during coding or on command.",
   "keywords": [
     "WCAG",
